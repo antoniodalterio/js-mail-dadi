@@ -17,7 +17,15 @@ stampa un messaggio appropriato sull’esito del controllo.
 Gioco dei dadi
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 Stabilire il vincitore, in base a chi fa il punteggio più alto.
-Prima di partire a scrivere codice poniamoci qualche domanda:
-Che ci sia un array da qualche parte?
-Se dobbiamo confrontare qualcosa che “cosa” ci serve?
-Consigli del giorno:
+
+1. creo variabili per il computer e utente che generano numeri casuali da 1 a 5
+
+2. faccio visualizzare all'utente tramite alert i numeri
+
+3. condizione
+   - SE il numeroUtente è più grnade del computerNumero
+     - stampa tramite alert (il giocatore ha vinto)
+   - ALTRIMENTI SE il numeroUtente è minore del computerNumero
+     - stampa tramite alert (il computer ha vinto)
+   - ALTRIMENTI SE il nuemroUtentr e computerNUmero sono uguali
+   - stampa (pareggio)
