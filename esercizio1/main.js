@@ -31,9 +31,9 @@ const archivioMail = [
 
 for (let mail = 0; mail < archivioMail.length; mail++) {
   if (utenteMail === archivioMail[mail]) {
-    alert(utenteMail);
-    console.log(utenteMail);
+    alert(utenteMail + ' ' + 'corretta');
     break;
   } else if (utenteMail !== archivioMail[mail]) {
+    alert('email non valida');
   }
 }
